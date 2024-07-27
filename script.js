@@ -38,3 +38,13 @@
 for ( var i = 0 ; i<0; i++){
     console.log("hi")
 }
+
+
+let obj = {
+    name : "ali",
+    class:"3",
+}
+for(let key in obj){
+    console.log(key,obj)
+}
+
